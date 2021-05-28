@@ -1,0 +1,63 @@
+html {
+  scroll-behavior: smooth;
+}
+
+h2,
+h3,
+h4,
+.nav-item,
+#transition,
+footer {
+  text-align: center;
+}
+
+/************************** HEADER *******************/
+header {
+  background: url(./media/main.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  height: 100vh;
+  border-radius: 0 0 20px 20px;
+  margin-bottom: 40px;
+}
+h1 {
+  font-size: 5em;
+  padding: 200px 0 0 20%;
+  text-shadow: -3px 3px 2px #bcf5a9;
+  animation: titre ease 3.5s;
+}
+@keyframes titre {
+  0% {
+    opacity: 0;
+    transform: translateY(180px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+/************************** LEFT PART ***************************/
+#leftPart {
+  background-color: rgba(123, 156, 40, 0.698);
+  border-radius: 20px;
+  padding: 25px;
+}
+.elements {
+  padding: 70px 0;
+}
+.elements img {
+  border-radius: 50%;
+  width: 200px;
+}
+.elements p {
+  font-size: 1.2em;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  padding-right: 20px;
+}
+.elements .button {
+  text-align: right;
+  margin: 15px 4% 0 0;
+}

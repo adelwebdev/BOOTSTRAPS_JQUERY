@@ -6,7 +6,7 @@ h2,
 h3,
 h4,
 .nav-item,
-#transition,
+#transition, 
 footer {
   text-align: center;
 }
@@ -43,7 +43,7 @@ h1 {
   padding: 25px;
 }
 .elements {
-  padding: 70px 0;
+  padding: 70px 0;  
 }
 .elements img {
   border-radius: 50%;

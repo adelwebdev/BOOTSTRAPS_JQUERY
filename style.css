@@ -35,3 +35,30 @@ h1 {
     transform: translateY(0px);
   }
 }
+
+/* *******************left part*********************** */
+
+#leftPart {
+  background-color: #bcf5a9;
+  padding: 25px;
+  border-radius: 20px;
+}
+.elements {
+  padding: 70px 0;
+}
+.elements img {
+  border-radius: 50%;
+  width: 200px;
+}
+.elements p {
+  font-size: 1.2em;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  padding-right: 20px;
+}
+.elements .button {
+  text-align: right;
+  margin: 15px 4% 0 0;
+}

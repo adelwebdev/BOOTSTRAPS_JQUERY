@@ -144,3 +144,11 @@ h1 {
   border-radius: 50%;
   margin-bottom: 70px;
 }
+#newsletter h4 {
+  margin-top: 15px;
+  padding: 100px 0 20px 0;
+  font-size: 2em;
+  text-shadow: 1px 1px 0 #bcf5a9, 1px -1px 0 #bcf5a9, -1px 1px 0 #bcf5a9,
+    -1px -1px 0 #bcf5a9, 1px 0px 0 #bcf5a9, 0px 1px 0 #bcf5a9,
+    -1px 0px 0 #bcf5a9, 0px -1px 0 #bcf5a9;
+}

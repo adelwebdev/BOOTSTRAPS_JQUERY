@@ -132,3 +132,15 @@ h1 {
     transform: translate(0px, 0px);
   }
 }
+
+/* *************newsletter********** */
+#newsletter {
+  background: url(./media/newsletter.jpeg) no-repeat 50% 50%;
+  background-size: cover;
+  height: 370px;
+  width: 70%;
+  min-width: 450px;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-bottom: 70px;
+}

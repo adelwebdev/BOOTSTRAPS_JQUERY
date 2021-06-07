@@ -83,3 +83,13 @@ h1 {
     -1px -1px 0 #bcf5a9, 1px 0px 0 #bcf5a9, 0px 1px 0 #bcf5a9,
     -1px 0px 0 #bcf5a9, 0px -1px 0 #bcf5a9;
 }
+.tips :hover {
+  transform: scale(1.08);
+  opacity: 0.7;
+  transition: ease-out 0.2s;
+}
+#transition {
+  padding: 50px 0;
+}
+#transition img {
+}

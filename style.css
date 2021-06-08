@@ -152,3 +152,9 @@ h1 {
     -1px -1px 0 #bcf5a9, 1px 0px 0 #bcf5a9, 0px 1px 0 #bcf5a9,
     -1px 0px 0 #bcf5a9, 0px -1px 0 #bcf5a9;
 }
+
+#newsletter .input-group {
+  width: 40%;
+  min-width: 350px;
+  margin: 0 auto;
+}

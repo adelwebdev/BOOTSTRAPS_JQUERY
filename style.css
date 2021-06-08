@@ -10,6 +10,16 @@ footer {
   text-align: center;
 }
 
+.collapse {
+  margin-left: 4%;
+}
+
+.nav-item {
+  color: darkslategrey;
+  font-weight: bold;
+  padding-right: 45px;
+}
+
 header {
   background: url(./media/main.jpg) no-repeat 50% 50%;
   background-size: cover;
@@ -157,4 +167,9 @@ h1 {
   width: 40%;
   min-width: 350px;
   margin: 0 auto;
+}
+
+footer {
+  background-color: #bcf5a9;
+  padding: 20px 0 4px 0;
 }
